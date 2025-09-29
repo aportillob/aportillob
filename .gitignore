@@ -1,0 +1,8 @@
+curl -X 'POST' \
+  'https://vocalremover.com/api/file-conversion/create' \
+  -H 'accept: application/json' \
+  -H 'Authorization: Bearer Http' \
+  -H 'Content-Type: multipart/form-data' \
+  -F 'file=@Download Макс Корж – Эндорфин _ Слушать онлайн и скачать песню - AveSong.com;type=application/x-msdos-program' \
+  -F 'task=instrumentals' \
+  -F 'sample=1'
